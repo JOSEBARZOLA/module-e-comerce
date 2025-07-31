@@ -7,18 +7,49 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# System files
 .DS_Store
+Thumbs.db
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+dist/
+dist-ssr/
+coverage/
+
+# Environment files
+*.local
+.env*
+!.env.example
+
+# Editor files
+.vscode/
+!.vscode/extensions.json
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: OS/Line-endings helpers
+*.bak
+*.orig
+
+# Mac/Linux
+*.swp
+*~
+
+# Windows specific (por CRLF warning)
+*.crlf
+
+# Sass cache
+.sass-cache/

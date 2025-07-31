@@ -1,3 +1,15 @@
 @use "_variables" as *;
-@use "bulma/bulma";
 
+
+
+@use "bulma/sass" with (
+  $family-primary: '"Nunito", sans-serif',
+  $success: $color-success,
+  $grey-dark: $color-dark,
+  $primary: $color-primary,
+  $link: $color-secondary,
+  $light: $color-light,
+  $control-border-width: 2px,
+  $input-shadow: none
+);
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
