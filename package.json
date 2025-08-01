@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build-bulma": "sass --load-path=node_modules _main.scss",
+    "start": "npm run build-bulma -- --watch",
     "lint": "eslint .",
     "preview": "vite preview"
   },
