@@ -3,12 +3,15 @@ $color-primary: #12009d;
 $color-secondary: #ff7f50;
 $color-accent: #00c896;
 $color-dark: #2e422e;
-$color-light: #f461a1;
+$color-light: #33bad8;
 $color-white: #ffffff;
 $color-black: #000000;
 $color-danger: #ff3860;
 $color-success: #85dc5c;
 $color-warning: #ffdd57;
+$color-purple: #aa0eaa;
+$color-pink: #fc9dad;
+$color-gray: #808080;
 
 // 🎨 ESCALA DE GRIS
 $gray-100: #f8f9fa;
@@ -29,6 +32,7 @@ $font-size-lg: 1.25rem;
 $line-height-base: 1.5;
 $font-weight-normal: 400;
 $font-weight-bold: 700;
+$text-color: white;
 
 // 📐 ESPACIADO
 $spacing-xs: 0.25rem;
@@ -55,3 +59,5 @@ $breakpoint-sm: 768px;
 $breakpoint-md: 992px;
 $breakpoint-lg: 1200px;
 $breakpoint-xl: 1400px;
+
+$card-size: 23rem;
