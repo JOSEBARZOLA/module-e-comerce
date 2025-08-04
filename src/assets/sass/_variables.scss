@@ -55,7 +55,7 @@ $box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
 
 // 🌐 BREAKPOINTS (para media queries)
 $breakpoint-xs: 480px;
-$breakpoint-sm: 768px;
+$breakpoint-sm: 767px;
 $breakpoint-md: 992px;
 $breakpoint-lg: 1200px;
 $breakpoint-xl: 1400px;
@@ -64,7 +64,7 @@ $breakpoint-xl: 1400px;
 // CARDS SECTION
 $card-width: 75%;
 $card-margin: 0 auto;
-$card-radius: 6px;
+$card-radius: 0px;
 $shadow-default: 5px 5px 30px 0px rgba(46, 61, 73, 0.9);
 $shadow-hover: 5px 1px 10px 0px rgba(46, 61, 73, 0.1);
 $card-size: 23rem;

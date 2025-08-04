@@ -1,7 +1,7 @@
 function Navbar(){
     return(
         <>
-        <section className="hero is-fullheight">
+        <section id="heroNavbar" className="hero is-fullheight">
         <div className="hero-body">
           <div className="container has-text-centered">
             <p className="f-title">LOGO</p>
