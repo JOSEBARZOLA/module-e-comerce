@@ -1,10 +1,10 @@
 function Navbar(){
     return(
         <>
-        <section className="hero is-primary is-fullheight">
+        <section className="hero is-fullheight">
         <div className="hero-body">
           <div className="container has-text-centered">
-            <p className="title">LOGO</p>
+            <p className="f-title">LOGO</p>
             <p className="subtitle">alguna leyenda</p>
           </div>
         </div>
@@ -16,7 +16,7 @@ function Navbar(){
                   <a>Home</a>
                 </li>
                 <li className="navbar-item">
-                  <a>Ofertas</a>
+                  <a>Shop</a>
                 </li>
                 <li className="navbar-item">
                   <a>Calzado</a>
